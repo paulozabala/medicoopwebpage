@@ -7,13 +7,13 @@
 /* Pantallas grandes*/
 @media (max-width: 2500px){
   html {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 
 @media (max-width: 1400px) {
   html {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .logo{
@@ -39,12 +39,16 @@
 
 @media (max-width: 650px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  #topMenu{
+    height: 45px !important;
   }
 
   .logo{
-    width: 30px !important;
-    height: 30px !important;
+    width: 25px !important;
+    height: 25px !important;
   }
 
   #logobox{
@@ -58,5 +62,34 @@
 @media (max-width: 450px) {
   html {
     font-size: 12px;
+  }
+
+  #topMenu{
+    height: 35px !important;
+  }
+
+  .logo{
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 11px;
+  }  
+
+  #topMenu{
+    height: 35px !important;
+  }
+
+  .logo{
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  #logobox{
+   width: 100% !important;
+   border-radius: 20px 0px 20px 0px !important;
   }
 }

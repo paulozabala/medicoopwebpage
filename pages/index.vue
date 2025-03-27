@@ -1,63 +1,36 @@
 <template>
-    <NuxtLayout name="header" />
+    <div>
+        <component :is="header" />
+    </div>
 </template>
 
 <script setup lang="ts">
-
-import { useRoute } from "vue-router";
-
-const loginw = ref<boolean>(false)
-const successLogin = ref<boolean>(false)
-const inValidLogin = ref<boolean>(false)
-
-//routing
-const router = useRouter()
-const route = useRoute()
-
-
-onMounted(() => {
-    loginw.value = true;
-})
-
-interface logformStructure {
-    nombre: string,
-    password: string,
-    perfil: string
-}
-
-const logform = reactive<logformStructure>({
-    nombre: "",
-    password: "",
-    perfil: "",
-})
-
-
-function usernotfoundmsg() {
-    alert("mensjae: no encontrado")
-    //if (loginErrMsgRef.value) loginErrMsgRef.value.focus();
-}
+import header from '~/components/header.vue';
 </script>
 
 <style>
-
-div>input {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
-    border-radius: 3px;
-    margin: 0px 15px;
-    padding: 5px;
+.boxoutofwhitebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  border-bottom: 20px grey !important;
 }
 
-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: auto !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
-    font-weight: bold;
-    color: white;
-    border-width: 1px;
-    margin: 0px 45px;
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+#logobox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 500px 0px 500px 0px;
+  height: 80%;
+  min-width: 80%;
+  max-width: 90%;
 }
 </style>

@@ -1,8 +1,8 @@
 <template fluid>
-  <div id="MainPage" class="flex flex-row justify-center">
-    <div id="topMenu" >
+  <div>
+    <div id="topMenu">
       <div class="boxoutofwhitebox">
-        <div id="logobox" >
+        <div id="logobox">
           <img src="../public/logonly.png" alt="logo" class="logo" />
         </div>
       </div>
@@ -11,7 +11,7 @@
       <div>Blog</div>
       <div>Servicios</div>
       <div>Contácto</div>
-      <div>Acceso Usuarios</div>
+      <div class="text-center">Acceso Usuarios</div>
     </div>
   </div>
 </template>
@@ -30,19 +30,18 @@
   gap: 8px;
   height: 60px;
   background-color: #2DCD7F;
-  min-width:100%;
+  min-width: 100%;
 }
 
-#topMenu div{
+#topMenu div {
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   align-items: center;
   width: 14.28% !important;
-  /*font-size: 26px;*/
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
-.boxoutofwhitebox{
+.boxoutofwhitebox {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,16 +53,15 @@
   height: 60px;
 }
 
-#logobox{
+#logobox {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: white;
-  border-radius:500px 0px 500px 0px;
+  border-radius: 500px 0px 500px 0px;
   height: 80%;
   min-width: 80%;
   max-width: 90%;
 }
-
 </style>
