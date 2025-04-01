@@ -1,36 +1,29 @@
-<template>
+<template fluid>
+  <div id="MainPage">
+    <component :is="header" />
     <div>
-        <component :is="header" />
+      <component :is="carousel" />
     </div>
+    <component :is="footer" />
+  </div>
 </template>
 
 <script setup lang="ts">
 import header from '~/components/header.vue';
+import footer from '~/components/footer.vue';
+import carousel from '~/components/carousel.vue';
 </script>
 
 <style>
-.boxoutofwhitebox {
+#MainPage {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  border-bottom: 20px grey !important;
-}
-
-.logo {
-  width: 60px;
-  height: 60px;
-}
-
-#logobox {
-  display: flex;
-  flex-direction: column;
+  flex-direction:column;
+  justify-content: start;
   align-items: center;
-  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 100vh;
   background-color: white;
-  border-radius: 500px 0px 500px 0px;
-  height: 80%;
-  min-width: 80%;
-  max-width: 90%;
+
 }
 </style>

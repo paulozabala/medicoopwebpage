@@ -2,12 +2,14 @@
 @import "@nuxt/ui";
 @theme {
   --font-sans: Montserrat ;
+  --color-blue-100:#1A4A60;
 }
 
 /* Pantallas grandes*/
 @media (max-width: 2500px){
   html {
     font-size: 22px;
+    background-color: white !important;
   }
 }
 
@@ -34,6 +36,9 @@
     height: 40px !important;
   }
 
+ #LinkBox{
+  height: 288px !important;
+ }
 
 }
 
