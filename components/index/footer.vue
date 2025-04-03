@@ -41,8 +41,8 @@
                             información: Desarrollo web, balticst3ch@gmail.com
                         </h6>
                         <div id="frame">
-                            <img src="../assets/FB.png" alt="fblogo">
-                            <img src="../assets/IG.png" alt="iglogo">
+                            <img src="../../assets/FB.png" alt="fblogo">
+                            <img src="../../assets/IG.png" alt="iglogo">
                         </div>
                     </div>
                 </div>
@@ -194,20 +194,17 @@ h6{
     #greenElipse {
     border-radius: 0px 350px 0px 0px;
 }
+}
 @media (max-width: 460px) {
     #greenElipse {
     border-radius: 0px 280px 0px 0px;
 }
-
+}
 @media (max-width: 360px) {
     #greenElipse {
     border-radius: 0px 240px 0px 0px;
 }
-
-}
-
 }
 
 
-}
 </style>

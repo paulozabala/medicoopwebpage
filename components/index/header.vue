@@ -2,7 +2,7 @@
   <div id="topMenu">
     <div class="boxoutofwhitebox">
       <div id="logobox">
-        <img src="../public/logonly.png" alt="logo" class="logo" />
+        <img src="../../public/logonly.png" alt="logo" class="logo" />
       </div>
     </div>
     <div>Inicio</div>

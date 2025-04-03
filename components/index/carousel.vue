@@ -1,7 +1,7 @@
 <template fluid>
     <div class="carouselbox">
         <UCarousel class="UCarousel" v-slot="{ item }" loop auto-scroll :items="items" :ui="{ item: 'basis-1/3' }">
-            <img :src="item" width="334" height="334" class="rounded-lg">
+            <img :src="item" width="434" height="334" class="rounded-lg">
         </UCarousel>
     </div>
 </template>
