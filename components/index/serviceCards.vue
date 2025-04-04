@@ -8,7 +8,7 @@
         </div>
         <div class="boxinside">
             <div class="head">
-                <img src="../../assets/consulta-especializada.jpg" alt="">
+                <img src="../../assets/personal/consulta-especializada.jpg" alt="">
             </div>
             <div class="card"><span id="title">Consulta Médica Especializada</span>
                 <ul class="">
@@ -22,7 +22,7 @@
         </div>
         <div class="boxinside">
             <div class="head">
-                <img src="../../assets/otero_yeny.jpeg" alt="">
+                <img src="../../assets/personal/otero_yeny.jpeg" alt="">
             </div>
             <div class="card"><span id="title">Exámen Médico Ocupacional</span>
                 <ul>
@@ -69,7 +69,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    gap: 2px;
+    gap: 8px;
     border-radius: 15px;
     background: linear-gradient(to bottom, #3699C6 2%, #1A4A60 68%) !important;
     padding: 10px 10px;
@@ -133,7 +133,7 @@ li {
 
 @media (max-width: 768px) {
     .boxinside {
-        height: 445px !important;
+        height: 460px !important;
     }
 
     .card {

@@ -1,7 +1,7 @@
 <template fluid>
     <div class="carouselbox">
-        <UCarousel class="UCarousel" v-slot="{ item }" loop auto-scroll :items="items" :ui="{ item: 'basis-1/3' }">
-            <img :src="item" width="434" height="334" class="rounded-lg">
+        <UCarousel class="UCarousel" v-slot="{ item }" loop auto-scroll :items="items" :ui="{ item: 'basis-1/4' }">
+            <img :src="item" width="734" height="634" class="rounded-lg">
         </UCarousel>
     </div>
 </template>
@@ -24,16 +24,7 @@ const items = [
 
 .UCarousel{
     background-color: #6efab7fb !important;
-
     padding: 10px;
 }
-/* .carouselbox {
-    margin: 10px;
-    position: relative;
-    top: 10px;
-    left: 0;
-    width: 100%;
-    background-color: #2dcd8088 !important;
-    opacity: 95%;
-} */
+
 </style>

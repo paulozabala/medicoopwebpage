@@ -41,8 +41,8 @@
                             información: Desarrollo web, balticst3ch@gmail.com
                         </h6>
                         <div id="frame">
-                            <img src="../../assets/FB.png" alt="fblogo">
-                            <img src="../../assets/IG.png" alt="iglogo">
+                            <img src="../../assets/tipos&logos/FB.png" alt="fblogo">
+                            <img src="../../assets/tipos&logos/IG.png" alt="iglogo">
                         </div>
                     </div>
                 </div>
@@ -52,8 +52,7 @@
 </template>
 <style scoped>
 #footerbox {
-    position:relative;
-    margin-top: 500px;/*added z*/
+    position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -154,7 +153,7 @@
     height: 180px;
 }
 
-h6{
+h6 {
     color: black;
     font-weight: 500;
 }
@@ -187,24 +186,25 @@ h6{
 
 @media (max-width: 800px) {
     #greenElipse {
-    border-radius: 0px 400px 0px 0px;
+        border-radius: 0px 400px 0px 0px;
+    }
 }
-}
+
 @media (max-width: 600px) {
     #greenElipse {
-    border-radius: 0px 350px 0px 0px;
+        border-radius: 0px 350px 0px 0px;
+    }
 }
-}
+
 @media (max-width: 460px) {
     #greenElipse {
-    border-radius: 0px 280px 0px 0px;
+        border-radius: 0px 280px 0px 0px;
+    }
 }
-}
+
 @media (max-width: 360px) {
     #greenElipse {
-    border-radius: 0px 240px 0px 0px;
+        border-radius: 0px 240px 0px 0px;
+    }
 }
-}
-
-
 </style>

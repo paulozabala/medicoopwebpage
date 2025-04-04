@@ -4,6 +4,7 @@
     <component :is="carousel" />
     <component :is="diferentials" />
     <component :is="serviceCards" />
+    <component :is="clients" />
     <component :is="footer" />
   </div>
 </template>
@@ -14,6 +15,7 @@ import footer from '~/components/index/footer.vue';
 import carousel from '~/components/index/carousel.vue';
 import diferentials from '~/components/index/diferentials.vue';
 import serviceCards from '~/components/index/serviceCards.vue';
+import clients from '~/components/index/clients.vue'
 </script>
 
 <style>
@@ -24,8 +26,5 @@ import serviceCards from '~/components/index/serviceCards.vue';
   align-items: center;
   gap: 2px;
   width: 100%;
-  height: 100vh;
-  background-color: white;
-
 }
 </style>

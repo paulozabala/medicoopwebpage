@@ -9,7 +9,10 @@
 @media (max-width: 2500px){
   html {
     font-size: 22px;
-    background-color: white !important;
+  }
+
+  body{
+    background: white;
   }
 }
 
@@ -17,13 +20,6 @@
   html {
     font-size: 20px;
   }
-
-  .logo{
-    width: 50px !important;
-    height: 50px !important;
-  }
-
- 
 }
 
 /* Tabletas*/ 
@@ -32,35 +28,11 @@
   html {
     font-size: 16px;
   }
-
-  .logo{
-    width: 40px !important;
-    height: 40px !important;
-  }
-
- #LinkBox{
-  height: 288px !important;
- }
-
 }
 
 @media (max-width: 650px) {
   html {
     font-size: 14px;
-  }
-
-  #topMenu{
-    height: 45px !important;
-  }
-
-  .logo{
-    width: 25px !important;
-    height: 25px !important;
-  }
-
-  #logobox{
-    min-width: 90% !important;
-    max-width: 100% !important;
   }
 }
 
@@ -70,33 +42,10 @@
   html {
     font-size: 12px;
   }
-
-  #topMenu{
-    height: 35px !important;
-  }
-
-  .logo{
-    width: 20px !important;
-    height: 20px !important;
-  }
 }
 
 @media (max-width: 350px) {
   html {
     font-size: 11px;
   }  
-
-  #topMenu{
-    height: 35px !important;
-  }
-
-  .logo{
-    width: 20px !important;
-    height: 20px !important;
-  }
-
-  #logobox{
-   width: 100% !important;
-   border-radius: 20px 0px 20px 0px !important;
-  }
 }
