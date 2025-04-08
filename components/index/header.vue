@@ -6,9 +6,16 @@
       </div>
     </div>
     <div id="btns" @click="router.push('/about')">Inicio</div>
-    <div id="btns">Conócenos</div>
+
+    <div id="btns" class="">Conócenos</div>
     <div id="btns">Blog</div>
-    <div id="btns">Servicios</div>
+    <div id="btns">
+      <UDropdownMenu id="btns" :items="items"
+        class="flex justify-center border-1 border-white rounded-md py-1 w-full overflow-hidden">
+        <menu>Servicios</menu>
+      </UDropdownMenu>
+    </div>
+    <!-- <div id="btns">Servicios</div> -->
     <div id="btns">Contácto</div>
     <div id="btns" class="text-center">Acceso Usuarios</div>
   </div>
@@ -16,6 +23,71 @@
 
 <script setup lang="ts">
 const router = useRouter()
+import type { DropdownMenuItem } from '@nuxt/ui'
+import menu from '../menu.vue'
+
+const items = ref<DropdownMenuItem[]>([
+  {
+    label: 'Actividades en Seguridad y Salud en el Trabajo',
+    icon: 'healthicons:factory-worker-outline',
+    to: '/sst'
+  },
+  {
+    label: 'Certificados de Discapacidad',
+    icon: 'healthicons:wheelchair',
+    to: '/contactos'
+  },
+  {
+    label: 'Consulta Especializada',
+    icon: 'healthicons:doctor-male',
+    to: '/contactos'
+  },
+  {
+    label: 'Consulta Med. Alternativa y Procedimientos',
+    icon: 'healthicons:interoperability',
+    to: '/contactos'
+  },
+  {
+    label: 'Exámen Médico Ocupacional',
+    icon: 'healthicons:contraceptive-diaphragm-outline',
+    to: '/contactos'
+  },
+  {
+    label: 'Fonoaudiología y Terapia de Lenguaje',
+    icon: 'healthicons:hearing-aid',
+    to: '/contactos'
+  },
+  {
+    label: 'Nutrición y Dietética',
+    icon: 'healthicons:fruits',
+    to: '/contactos'
+  },
+  {
+    label: 'Optometría',
+    icon: 'healthicons:eyeglasses',
+    to: '/contactos'
+  },
+  {
+    label: 'Procedimientos de Electrodiagnóstico',
+    icon: 'healthicons:ventilator-alt-outline',
+    to: '/contactos'
+  },
+  {
+    label: 'Psicología',
+    icon: 'healthicons:psychology',
+    to: '/contactos'
+  },
+  {
+    label: 'Terapia Física',
+    icon: 'healthicons:physical-therapy',
+    to: '/contactos'
+  },
+  {
+    label: 'Terapia Ocupacional',
+    icon: 'i-lucide-cog',
+    to: '/contactos'
+  },
+])
 </script>
 
 <style>
@@ -34,16 +106,21 @@ const router = useRouter()
   justify-content: center;
   align-items: center;
   width: 14.28% !important;
-  margin:4px;
+  margin: 4px;
   font-weight: bolder;
 }
 
-#btns:hover{
+#btns {
+  color: white;
+  font-weight: 800;
+  width: 100%;
+}
+
+#btns:hover {
   background-color: black !important;
-  cursor:pointer !important;
+  cursor: pointer !important;
   border-radius: 7px;
-  height: 40px;
-  overflow:none;
+  height: 42px;
 }
 
 .boxoutofwhitebox {
@@ -71,42 +148,40 @@ const router = useRouter()
 }
 
 
-
-
 @media (max-width: 1400px) {
-  .logo{
+  .logo {
     width: 50px !important;
     height: 50px !important;
   }
 
- 
+
 }
 
-/* Tabletas*/ 
+/* Tabletas*/
 
 @media (max-width: 768px) {
-  .logo{
+  .logo {
     width: 40px !important;
     height: 40px !important;
   }
 
- #LinkBox{
-  height: 288px !important;
- }
+  #LinkBox {
+    height: 288px !important;
+  }
 
 }
 
 @media (max-width: 650px) {
-  #topMenu{
+  #topMenu {
     height: 45px !important;
   }
 
-  .logo{
+  .logo {
     width: 25px !important;
     height: 25px !important;
   }
 
-  #logobox{
+  #logobox {
     min-width: 90% !important;
     max-width: 100% !important;
   }
@@ -115,29 +190,33 @@ const router = useRouter()
 /*/ Celulares */
 
 @media (max-width: 450px) {
-  #topMenu{
+  #topMenu {
     height: 35px !important;
   }
 
-  .logo{
+  .logo {
     width: 20px !important;
     height: 20px !important;
+  }
+
+  #btns:hover {
+    height: 35px;
   }
 }
 
 @media (max-width: 350px) {
-  #topMenu{
+  #topMenu {
     height: 35px !important;
   }
 
-  .logo{
+  .logo {
     width: 20px !important;
     height: 20px !important;
   }
 
-  #logobox{
-   width: 100% !important;
-   border-radius: 20px 0px 20px 0px !important;
+  #logobox {
+    width: 100% !important;
+    border-radius: 20px 0px 20px 0px !important;
   }
 }
 </style>

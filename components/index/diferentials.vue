@@ -101,4 +101,28 @@ img {
     }
 
 }
+
+
+@media (max-width: 360px) {
+    .boxinside {
+        min-height: 180px !important;
+
+    }
+
+    .head {
+        width: 220px !important;
+        height: 70px;
+    }
+
+    img {
+        width: 70px;
+    }
+
+    .card {
+        width: 220px !important;
+        font-size:20px;
+        height: 200px;
+    }
+
+}
 </style>

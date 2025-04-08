@@ -37,7 +37,7 @@
                     <span>MEDICOOP IPS</span>
                     <hr style="line-height: 20px; width:100%; color: #1A4A60;" />
                     <div id="rightsSocialsBox" class="flex justify-between align-middle">
-                        <h6 style="height: 80px; max-width: 600px;">© 2025 - Todos los derechos reservados. Más
+                        <h6 style="height: 80px; max-width: 600px; color: #1A4A60;">© 2025 - Todos los derechos reservados. Más
                             información: Desarrollo web, balticst3ch@gmail.com
                         </h6>
                         <div id="frame">
@@ -57,6 +57,7 @@
     left: 0px;
     width: 100%;
     height: 553px;
+    color: white;
     /* Establishes a positioning context for absolute children */
 }
 
@@ -200,11 +201,19 @@ h6 {
     #greenElipse {
         border-radius: 0px 280px 0px 0px;
     }
+
+    #LinkBox{
+        font-size: 14px !important;
+    }
 }
 
 @media (max-width: 360px) {
     #greenElipse {
         border-radius: 0px 240px 0px 0px;
+    }
+
+    #LinkBox{
+        font-size: 12px !important;
     }
 }
 </style>

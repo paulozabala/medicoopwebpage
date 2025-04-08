@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col justify-center min-w-4/5">
         <div class="flex justify-center min-w-5/5 pt-10 px-30">
-            <span class="text-4xl text-black font-semibold text-center">
+            <span class="text-4xl text-blue-100 font-semibold text-center">
                 Algunos de nuestros convenios:
             </span>
         </div>
