@@ -2,21 +2,20 @@
   <div id="topMenu">
     <div class="boxoutofwhitebox">
       <div id="logobox">
-        <img src="../../public/logonly.png" alt="logo" class="logo" />
+        <img src="../public/logonly.png" alt="logo" class="logo" />
       </div>
     </div>
-    <div id="btns" @click="router.push('/about')">Inicio</div>
-
-    <div id="btns" class="">Conócenos</div>
+    <div id="btns" @click="router.push('/')">Inicio</div>
+    <div id="btns" @click="router.push('/about')">Conócenos</div>
     <div id="btns">Blog</div>
-    <div id="btns">
-      <UDropdownMenu id="btns" :items="items"
-        class="flex justify-center border-1 border-white rounded-md py-1 w-full overflow-hidden">
-        <menu>Servicios</menu>
+    <div >
+      <UDropdownMenu  :items="items" class="flex justify-center">
+        <UButton label="Servicios" id="btns" class="bg-transparent overflow-auto">
+        </UButton>
       </UDropdownMenu>
     </div>
     <!-- <div id="btns">Servicios</div> -->
-    <div id="btns">Contácto</div>
+    <div id="btns" @click="router.push('/contacto')">Contácto</div>
     <div id="btns" class="text-center">Acceso Usuarios</div>
   </div>
 </template>
@@ -24,7 +23,6 @@
 <script setup lang="ts">
 const router = useRouter()
 import type { DropdownMenuItem } from '@nuxt/ui'
-import menu from '../menu.vue'
 
 const items = ref<DropdownMenuItem[]>([
   {
@@ -107,13 +105,13 @@ const items = ref<DropdownMenuItem[]>([
   align-items: center;
   width: 14.28% !important;
   margin: 4px;
-  font-weight: bolder;
+
 }
 
 #btns {
   color: white;
   font-weight: 800;
-  width: 100%;
+  font-size: 22px;
 }
 
 #btns:hover {
@@ -154,7 +152,12 @@ const items = ref<DropdownMenuItem[]>([
     height: 50px !important;
   }
 
-
+  #btns {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    width: 100%;
+  }
 }
 
 /* Tabletas*/
@@ -185,6 +188,10 @@ const items = ref<DropdownMenuItem[]>([
     min-width: 90% !important;
     max-width: 100% !important;
   }
+
+  #btns {
+    font-size: 15px;
+  }
 }
 
 /*/ Celulares */
@@ -197,6 +204,10 @@ const items = ref<DropdownMenuItem[]>([
   .logo {
     width: 20px !important;
     height: 20px !important;
+  }
+
+  #btns {
+    font-size: 11px;
   }
 
   #btns:hover {
@@ -217,6 +228,10 @@ const items = ref<DropdownMenuItem[]>([
   #logobox {
     width: 100% !important;
     border-radius: 20px 0px 20px 0px !important;
+  }
+  
+  #btns {
+    font-size: 10px;
   }
 }
 </style>

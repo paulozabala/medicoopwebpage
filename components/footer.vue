@@ -36,13 +36,14 @@
                 <div id="copyRights">
                     <span>MEDICOOP IPS</span>
                     <hr style="line-height: 20px; width:100%; color: #1A4A60;" />
-                    <div id="rightsSocialsBox" class="flex justify-between align-middle">
-                        <h6 style="height: 80px; max-width: 600px; color: #1A4A60;">© 2025 - Todos los derechos reservados. Más
-                            información: Desarrollo web, balticst3ch@gmail.com
+                    <div id="rightsSocialsBox" class="flex flex-row justify-between align-middle max-sm:flex-col">
+                        <h6 style="height: 80px; max-width: 600px; color: #1A4A60;">© 2025 - Todos los derechos
+                            reservados.
+                            Desarrollo web, balticst3ch@gmail.com
                         </h6>
                         <div id="frame">
-                            <img src="../../assets/tipos&logos/FB.png" alt="fblogo">
-                            <img src="../../assets/tipos&logos/IG.png" alt="iglogo">
+                            <img src="../assets/tipos&logos/FB.png" alt="fblogo">
+                            <img src="../assets/tipos&logos/IG.png" alt="iglogo">
                         </div>
                     </div>
                 </div>
@@ -147,7 +148,7 @@
 #copyRights {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
     gap: 20px;
     padding: 0px 20px;
@@ -183,11 +184,16 @@ h6 {
     height: 80px;
     width: 100%;
     gap: 10px;
+    padding: 0px 20px;
 }
 
 @media (max-width: 800px) {
     #greenElipse {
         border-radius: 0px 400px 0px 0px;
+    }
+
+    #Links{
+        gap: 10px !important;
     }
 }
 
@@ -202,18 +208,42 @@ h6 {
         border-radius: 0px 280px 0px 0px;
     }
 
-    #LinkBox{
-        font-size: 14px !important;
+    #LinkBox {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 405px) {
+    #LinkBox {
+        font-size: 11px !important;
     }
 }
 
 @media (max-width: 360px) {
-    #greenElipse {
-        border-radius: 0px 240px 0px 0px;
+    #Links {
+        flex-direction: column !important;
+        justify-content: start !important;
+        align-items: start !important;
+        gap: 0px !important;
+        max-height: 380px !important;
     }
 
-    #LinkBox{
-        font-size: 12px !important;
+    #greenElipse {
+        border-radius: 0px 280px 0px 0px;
     }
+
+    #LinkBox {
+        font-size: 8px !important;
+    }
+
+
+    #subirColumn {
+        justify-content: start;
+    }
+
+    #copyRights span {
+        font-size: 28px !important;
+    }
+
 }
 </style>
