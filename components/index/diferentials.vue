@@ -120,8 +120,8 @@ img {
 
     .card {
         width: 220px !important;
-        font-size:20px;
-        height: 200px;
+        font-size:12px;
+        height: 120px;
     }
 
 }
