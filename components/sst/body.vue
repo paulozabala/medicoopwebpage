@@ -41,7 +41,7 @@
                     </ul>
                 </div>
                 <div
-                    class=" border-blue-100 border-10 rounded-tr-2xl rounded-bl-2xl bg-[url('../../assets/actividadessst.jpg')] bg-cover min-w-60 h-50 shadow-2xl">
+                    class=" border-green-100 border-10 rounded-tr-2xl rounded-bl-2xl bg-[url('../../assets/actividadessst.jpg')] bg-cover min-w-60 h-50 shadow-2xl">
 
                 </div>
             </div>

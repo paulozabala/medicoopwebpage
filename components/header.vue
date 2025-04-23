@@ -10,7 +10,7 @@
     <div id="btns">Blog</div>
     <div >
       <UDropdownMenu  :items="items" class="flex justify-center">
-        <UButton label="Servicios" id="btns" class="bg-transparent overflow-auto">
+        <UButton label="Servicios" id="btns" class="bg-transparent ">
         </UButton>
       </UDropdownMenu>
     </div>
@@ -33,57 +33,57 @@ const items = ref<DropdownMenuItem[]>([
   {
     label: 'Certificados de Discapacidad',
     icon: 'healthicons:wheelchair',
-    to: '/contactos'
+    to: '/discapacidadcertificados'
   },
   {
     label: 'Consulta Especializada',
     icon: 'healthicons:doctor-male',
-    to: '/contactos'
+    to: '/consultaespecializada'
   },
   {
     label: 'Consulta Med. Alternativa y Procedimientos',
     icon: 'healthicons:interoperability',
-    to: '/contactos'
+    to: '/medicinaalternativa'
   },
   {
     label: 'Exámen Médico Ocupacional',
     icon: 'healthicons:contraceptive-diaphragm-outline',
-    to: '/contactos'
+    to: '/examenocupacional'
   },
   {
     label: 'Fonoaudiología y Terapia de Lenguaje',
     icon: 'healthicons:hearing-aid',
-    to: '/contactos'
+    to: '/terapiasdelenguajeyocupacional'
   },
   {
     label: 'Nutrición y Dietética',
     icon: 'healthicons:fruits',
-    to: '/contactos'
+    to: '/nutricionydietetica'
   },
   {
     label: 'Optometría',
     icon: 'healthicons:eyeglasses',
-    to: '/contactos'
+    to: '/optometria'
   },
   {
     label: 'Procedimientos de Electrodiagnóstico',
     icon: 'healthicons:ventilator-alt-outline',
-    to: '/contactos'
+    to: '/procedimientoselectrodiagnostico'
   },
   {
     label: 'Psicología',
     icon: 'healthicons:psychology',
-    to: '/contactos'
+    to: '/psicologia'
   },
   {
     label: 'Terapia Física',
     icon: 'healthicons:physical-therapy',
-    to: '/contactos'
+    to: '/terapiafisica'
   },
   {
     label: 'Terapia Ocupacional',
     icon: 'i-lucide-cog',
-    to: '/contactos'
+    to: '/terapiaocupacional'
   },
 ])
 </script>
