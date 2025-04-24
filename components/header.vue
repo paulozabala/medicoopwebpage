@@ -46,11 +46,6 @@ const items = ref<DropdownMenuItem[]>([
     to: '/medicinaalternativa'
   },
   {
-    label: 'Exámen Médico Ocupacional',
-    icon: 'healthicons:contraceptive-diaphragm-outline',
-    to: '/examenocupacional'
-  },
-  {
     label: 'Fonoaudiología y Terapia de Lenguaje',
     icon: 'healthicons:hearing-aid',
     to: '/terapiasdelenguajeyocupacional'
