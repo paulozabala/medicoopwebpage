@@ -16,13 +16,17 @@
     </div>
     <!-- <div id="btns">Servicios</div> -->
     <div id="btns" @click="router.push('/contacto')">Contácto</div>
-    <div id="btns" class="text-center">Acceso Usuarios</div>
+    <div id="btns" class="text-center" @click="redirectToLogin">Acceso Usuarios</div>
   </div>
 </template>
 
 <script setup lang="ts">
 const router = useRouter()
 import type { DropdownMenuItem } from '@nuxt/ui'
+
+function redirectToLogin() {
+  window.location.href = 'https://titansoluciones.cloud/financiero/#/loginresmed_8793';
+}
 
 const items = ref<DropdownMenuItem[]>([
   {
@@ -78,7 +82,7 @@ const items = ref<DropdownMenuItem[]>([
   {
     label: 'Terapia Ocupacional',
     icon: 'i-lucide-cog',
-    to: '/terapiaocupacional'
+    to: '/terapiasdelenguajeyocupacional'
   },
 ])
 </script>
