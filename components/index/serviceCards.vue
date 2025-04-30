@@ -4,15 +4,15 @@
             <div class="head">
                 <img src="../../public/assets/tfisica.png" alt="">
             </div>
-            <div class="card lg:text-md"><span id="title">Rehabilitación física Integral y Ocupacional</span>
-            <p class="mt-4 lg:text-sm lg:px-2 lg:pt-2 lg:mt-2">¡Recuperación integral, bienestar asegurado!</p></div>
+            <div class="card md:text-md"><span id="title">Rehabilitación física Integral y Ocupacional</span>
+            <p class="mt-4 md:text-sm md:px-2 md:pt-2 md:mt-2">¡Recuperación integral, bienestar asegurado!</p></div>
         </div>
         <div class="boxinside">
             <div class="head">
                 <img src="../../assets/personal/consulta-especializada.jpg" alt="">
             </div>
-            <div class="card lg:text-md"><span id="title">Consulta Médica Especializada</span>
-                <ul class="px-10 pt-4 text-start lg:text-sm lg:px-2 lg:pt-2">
+            <div class="card md:text-md"><span id="title">Consulta Médica Especializada</span>
+                <ul class="px-10 pt-4 text-start md:text-sm md:px-2 md:pt-2">
                     <li>Ortopedia</li>
                     <li>Fisiatría</li>
                     <li>Psiquiatría</li>
@@ -25,8 +25,8 @@
             <div class="head">
                 <img src="../../assets/personal/otero_yeny.jpeg" alt="">
             </div>
-            <div class="card lg:text-md"><span id="title">Exámen Médico Ocupacional</span>
-                <ul class="px-10 pt-4 text-start lg:text-sm lg:px-2 lg:pt-2">
+            <div class="card md:text-md"><span id="title">Exámen Médico Ocupacional</span>
+                <ul class="px-10 pt-4 text-start md:text-sm md:px-2 md:pt-2">
                     <li>Ingreso</li>
                     <li>Egreso</li>
                     <li>Periódicos</li>
@@ -37,8 +37,8 @@
             <div class="head">
                 <img src="../../assets/trabajador(compressed).jpg" alt="">
             </div>
-            <div class="card lg:text-md"><span id="title">Otros Servicios Ocupacionales:</span>
-                <ul class="px-10 pt-4 text-start lg:text-sm lg:px-2 lg:pt-2">
+            <div class="card md:text-md"><span id="title">Otros Servicios Ocupacionales:</span>
+                <ul class="px-10 pt-4 text-start md:text-sm md:px-2 md:pt-2">
                     <li>Análisis de puesto de trabajo</li>
                     <li>Eval. Ergonómica</li>
                     <li>Juntas de Rehabilitación, etc.</li>
@@ -90,6 +90,7 @@
 img {
     width: 230px;
     height: 240px;
+    object-fit: cover;
     border-radius: 15px 15px 115px 15px;
 }
 

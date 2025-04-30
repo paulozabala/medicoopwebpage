@@ -19,30 +19,30 @@
         <img src="../../assets/celpagweb (compressed) 1.png" class="max-w-5/15 md:max-w-8/15" alt="celular"></img>
     </div>
     <div class="flex max-md:flex-col md:max-2xl:flex-row justify-evenly items-center p-4 w-full">
-        <div class="border-1 border-green-300 rounded-xl sm:w-9/12 p-2 md:max-lg:max-w-8/15  lg:max-2xl:max-w-8/15 max-w-8/12">
+        <form class="border-1 border-green-300 rounded-xl sm:w-9/12 p-2 md:max-lg:max-w-8/15  lg:max-2xl:max-w-8/15 max-w-8/12" action="/api/send" method="POST">
             <div id="formulario" class="flex flex-row justify-around align-middle w-full ">
                 <div class="flex flex-col justify-center items-center p-2 gap-3 w-xs overflow-hidden">
                     <img src="../../assets/tipos&logos/nuevologomedicoop.png" class="max-w-29" alt="medicooplogo">
                     <p class="text-center text-xs text-blue-100 w-full text-overflow-hidden">Escribenos tus peticiones, quejas, reclamos y sugerencias:
                     </p>
                 </div>
-                <div class="flex flex-col justify-center items-start w-full h-40">
-                    <input type="text" placeholder="Nombre"
+                <div class="flex flex-col justify-center items-start w-full h-40" >
+                    <input type="text" name="name" placeholder="Nombre"
                         class="text-sm text-blue-100 font-normal border-1 border-blue-100 rounded-md w-3/3 h-10 px-2 mb-2 mt-2">
-                    <input type="text" placeholder="Telefono"
+                    <input type="phone" name="phone" placeholder="Telefono"
                         class="text-sm text-blue-100 font-normal border-1 border-blue-100 rounded-md w-3/3 h-10 px-2 mb-2 mt-2">
-                    <input type="text" placeholder="Correo"
+                    <input type="mail" name="mail" placeholder="Correo"
                         class="text-sm text-blue-100 font-normal border-1 border-blue-100 rounded-md w-3/3 h-10 px-2 mb-2 mt-2">
                 </div>
             </div>
             <div>
-                <textarea placeholder="Escribe aquí tu mensaje"
+                <textarea name="message" placeholder="Escribe aquí tu mensaje"
                     class="text-sm text-blue-100 font-semibold border-1 border-blue-100 rounded-md w-full h-20 px-2 mb-2 mt-2"></textarea>
                 <div class="flex flex-row justify-end">
-                    <button class="bg-blue-100 text-white w-4/12 h-10 sm:w-3/12">Enviar</button>
+                    <button type="submit" class="bg-blue-100 text-white w-4/12 h-10 sm:w-3/12">Enviar</button>
                 </div>
             </div>
-        </div>
+        </form>
         <div class="flex flex-col justify-center items-center sm:w-40 sm:h-40 sm:max-2xl:w-65 sm:max-2xl:h-65 md:max-w-7/15 lg:max-w-8/15 ">
             
             <div class="text-blue-100 font-bold text-center">¡Tu opinion es importante para nosotros!</div>
@@ -58,6 +58,7 @@
 </template>
 
 <script setup lang="ts">
+const apiUrl = process.env.VUE_APP_API_URL+'api/send' || 'http://localhost:3000/api/send'
 </script>
 
 <style scoped>

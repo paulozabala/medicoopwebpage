@@ -49,8 +49,10 @@ img {
     width: 100%;
     max-width: 180px;
     height: 140px;
+    object-fit: contain;
     border-radius: 15px;
     opacity: 70%;
+    mix-blend-mode: color-burn !important;
 }
 
 
