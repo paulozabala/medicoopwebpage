@@ -7,29 +7,29 @@
                     <div id="Links">
                         <div id="linksColumn">
                             <a class="font-bold text-blue-100">CÓNOCENOS</a>
-                            <a href="">Misión</a>
-                            <a href="">Visión</a>
-                            <a href="">Política de Calidad</a>
-                            <a href="">Política de HSEQ</a>
+                            <a href="/about">Misión</a>
+                            <a href="/about">Visión</a>
+                            <a href="/about">Política de Calidad</a>
+                            <a href="/about">Política de HSEQ</a>
                         </div>
                         <div id="linksColumn">
                             <a class="font-bold text-blue-100">SERVICIOS</a>
-                            <a href="">Fisioterapia</a>
-                            <a href="">Terapia Ocupacional</a>
-                            <a href="">Consulta Especializada</a>
-                            <a href="">Certificados de Discapacidad</a>
-                            <a href="">Exámenes Ocupacionales</a>
-                            <a href="">Teleconsulta</a>
+                            <a href="/terapiafisica">Fisioterapia</a>
+                            <a href="/terapiasdelenguajeyocupacional">Terapia Ocupacional</a>
+                            <a href="/consultaespecializada">Consulta Especializada</a>
+                            <a href="/discapacidadcertificados">Certificados de Discapacidad</a>
+                            <a href="/sst">Exámenes Ocupacionales</a>
+                            <a href="/">Teleconsulta</a>
                         </div>
                         <div id="linksColumn">
                             <a class="font-bold text-blue-100">USUARIOS</a>
-                            <a href="">Derechos y Deberes</a>
-                            <a href="">Consulta de H.C.</a>
+                            <a href="/educa-al-paciente">Derechos y Deberes</a>
+                            <a href="https://titansoluciones.cloud/financiero/#/loginresmed_8793">Consulta de H.C.</a>
                             <a href="">Agendamiento de Citas</a>
-                            <a href="">Peticiones, Quejas, Reclamos y Solicitudes</a>
+                            <a href="/contacto">Peticiones, Quejas, Reclamos y Solicitudes</a>
                         </div>
                         <div id="subirColumn">
-                            <div class="font-bold text-blue-100">SUBIR</div>
+                            <div class="font-bold text-blue-100"><a href="/">SUBIR</a></div>
                         </div>
                     </div>
                 </div>
