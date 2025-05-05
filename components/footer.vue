@@ -19,7 +19,7 @@
                             <a href="/consultaespecializada">Consulta Especializada</a>
                             <a href="/discapacidadcertificados">Certificados de Discapacidad</a>
                             <a href="/sst">Exámenes Ocupacionales</a>
-                            <a href="/">Teleconsulta</a>
+                            <a href="/teleconsulta">Teleconsulta</a>
                         </div>
                         <div id="linksColumn">
                             <a class="font-bold text-blue-100">USUARIOS</a>
