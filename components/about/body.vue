@@ -29,18 +29,16 @@
                     </UButton>
                 </UModal>
             </div>
-            <div class="flex flex-col md:flex-row justify-around items-center px-10 font-bold text-blue-100 h-70 ">
-                <div class="text-blue-100 min-w-xs text-center md:text-start">Ofrecemos acceso oportuno, confortable y seguro, pensado
+            <div class="flex flex-col md:flex-row justify-center items-center px-10 font-bold text-blue-100 h-70 gap-1">
+                <div class="text-blue-100 min-w-xs text-center md:text-start ">Ofrecemos acceso oportuno, confortable y
+                    seguro, pensado
                     en la
                     satisfacción de nuestros usuarios.
                 </div>
-                <video class="max-w-xs max-h-2xl rounded-3xl border-blue-200 border-2 bg-blue-200 p-2" controls>
-                    <source src="C:\Users\nmwh3\OneDrive\Escritorio\FOTOS\web comprimidas\centrodefisioterapia.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                <iframe class="w-full h-full rounded-3xl border-blue-200 border-2 bg-blue-200 p-2" src="https://www.youtube.com/embed/5ZVE93swYvk?si=iXEOnPjKttqR-PDP" title="Medicoop IPS IntroVideo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
-        <div id="imgbox" class="flex flex-row justify-around items-center text-blue-100 font-bold md:h-60 z-3 pl-10" >
+        <div id="imgbox" class="flex flex-row justify-around items-center text-blue-100 font-bold md:h-60 z-2 pl-10">
             <img src="../../assets/personal/Equipo.png" alt="team.jpg">
             <p class="px-5 text-center">
                 Nuestros colaboradores del área administrativa y de salud están altamente
@@ -50,16 +48,13 @@
     </div>
 </template>
 
-<script setup lang="ts">
-</script>
-
 <style scoped>
 .modalmenu {
     position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
-   /*  height: 100vh !important; */
+    /*  height: 100vh !important; */
 }
 
 .gradient {
@@ -76,25 +71,17 @@
     background-color: #1A4A60 !important;
 }
 
-
-/* #imgbox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 50px;
-    padding: 0px 20px 10px 0px;
-    z-index: 3 !important;
-
-} */
-
 img {
     width: 50%;
     height: 300px;
     object-fit: contain;
 }
 
+
 @media (max-width: 768px) {
+    #imgbox {
+        padding: 50px 20px 60px 0px;
+    }
 }
 
 @media (max-width: 433px) {
@@ -102,7 +89,7 @@ img {
         flex-direction: column;
         align-items: center;
         gap: 20px;
-        padding: 0px 20px 10px 0px;
+        padding: 50px 20px 10px 0px;
     }
 
     img {
