@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-row justify-center bg-blue-100 w-full">
-        <img class="rounded-b-3xl w-full lg:w-100 mb-2 lg:h-100" src="../../assets/teleconsulta.jpg" alt="">
+        <img class="rounded-b-3xl w-full lg:w-100 mb-2 lg:h-100" src="https://i.ibb.co/nsCzSh2S/teleconsulta.jpg" alt="">
         <span class="absolute text-6xl lg:text-7xl text-white text-center font-extrabold shadow-2xl ">Teleconsulta</span>
     </div>
     <div class="flex flex-col md:flex-row justify-start items-start gap-2 text-white  px-4 my-4">

@@ -2,7 +2,7 @@
     <div class="modalmenu flex flex-col mb-4 relative ">
         <div class="flex flex-col justify-center items-center px-0 z-2 gap-4">
             <div class="flex flex-row justify-around bg-blue-100 shadow-2xl w-full px-2 gap-4 pb-2">
-                <img class="rounded-b-3xl" src="../../assets/personal/Terapiafisica.jpg" 
+                <img class="rounded-b-3xl" src="https://i.ibb.co/QvGF5xs4/fisicamalaver.jpg" 
                     alt="">
             </div>
             <div class="px-12">

@@ -29,7 +29,7 @@
                             <a href="/contacto">Peticiones, Quejas, Reclamos y Solicitudes</a>
                         </div>
                         <div id="subirColumn">
-                            <div class="font-bold text-blue-100"><a href="/">SUBIR</a></div>
+                            <div class="font-bold text-blue-100"><a href="/">INICIO</a></div>
                         </div>
                     </div>
                 </div>

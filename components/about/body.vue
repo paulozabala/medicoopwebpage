@@ -39,7 +39,7 @@
             </div>
         </div>
         <div id="imgbox" class="flex flex-row justify-around items-center text-blue-100 font-bold md:h-60 z-2 pl-10">
-            <img src="../../assets/personal/Equipo.png" alt="team.jpg">
+            <img src="https://i.ibb.co/3YpsXC42/Equipo.png" alt="team.jpg">
             <p class="px-5 text-center">
                 Nuestros colaboradores del área administrativa y de salud están altamente
                 capacitados y siempre dispuestos a brindar la mejor atención a nuestros usuarios

@@ -13,17 +13,17 @@
             </p>
         </div>
         <div class="clients">
-            <img src="../../assets/clientes/fomag.jpg" alt="">
-            <img src="../../assets/clientes/positiva.jpg" alt="">
-            <img src="../../assets/clientes/axalogo.jpg" alt="">
+            <img src="https://i.ibb.co/YTpYN807/fomag.jpg" alt="">
+            <img src="https://i.ibb.co/twnWdSpT/positiva.jpg" alt="">
+            <img src="https://i.ibb.co/jPFQ08fm/axalogo.jpg" alt="">
 
-            <img src="../../assets/clientes/suralogo.png" alt="">
-            <img src="../../assets/clientes/cajacopi.jpg" alt="">
-            <img src="../../assets/clientes/colmena-seg.jpg" alt="">
+            <img src="https://i.ibb.co/1VrgZz2/suralogo.png" alt="">
+            <img src="https://i.ibb.co/0VXcSrGc/cajacopi.jpg" alt="">
+            <img src="https://i.ibb.co/tPqPLbCs/colmena-seg.jpg" alt="">
 
-            <img src="../../assets/clientes/Bolivar.jpg" alt="">
-            <img src="../../assets/clientes/logotempoaseo.png" alt="">
-            <img src="../../assets/clientes/logo_colsanitas.jpg" alt="">
+            <img src="https://i.ibb.co/VpxRjHLg/Bolivar.jpg" alt="">
+            <img src="https://i.ibb.co/Swd0cp4g/logotempoaseo.png" alt="">
+            <img src="https://i.ibb.co/nqC8Hb88/logo-colsanitas.jpg" alt="">
         </div>
     </div>
 </template>

@@ -7,22 +7,22 @@
             </p>
             <div class="flex flex-col justify-start align-start w-full ">
                 <div class="flex flex-row justify-start ">
-                    <img src="../../assets/tipos&logos/whatsapp.png" class="max-w-9" alt="whatsappicon">
+                    <img src="https://i.ibb.co/5g6HbXR8/whatsapp.png" class="max-w-9" alt="whatsappicon">
                     <div>Whatsapp: 3107688777</div>
                 </div>
                 <div class="flex flex-row justify-start">
-                    <img src="../../assets/tipos&logos/letter envelope 1.png" class="max-w-9" alt="lettericon">
+                    <img src="https://i.ibb.co/bMWWyXXs/letter-envelope-1.png" class="max-w-9" alt="lettericon">
                     <div>Email: medicoopipsltda2@gmail.com</div>
                 </div>
             </div>
         </div>
-        <img src="../../assets/celpagweb (compressed) 1.png" class="max-w-5/15 md:max-w-8/15" alt="celular"></img>
+        <img src="https://i.ibb.co/n8Z2X7J3/celpagweb-compressed-1.png" class="max-w-5/15 md:max-w-8/15" alt="celular"></img>
     </div>
     <div class="flex max-md:flex-col md:max-2xl:flex-row justify-evenly items-center p-4 w-full">
         <form class="border-1 border-green-300 rounded-xl sm:w-9/12 p-2 md:max-lg:max-w-8/15  lg:max-2xl:max-w-8/15 max-w-8/12" action="/api/send" method="POST">
             <div id="formulario" class="flex flex-row justify-around align-middle w-full ">
                 <div class="flex flex-col justify-center items-center p-2 gap-3 w-xs overflow-hidden">
-                    <img src="../../assets/tipos&logos/nuevologomedicoop.png" class="max-w-29" alt="medicooplogo">
+                    <img src="https://i.ibb.co/bgngFqGD/nuevologomedicoop.png" class="max-w-29" alt="medicooplogo">
                     <p class="text-center text-xs text-blue-100 w-full text-overflow-hidden">Escribenos tus peticiones, quejas, reclamos y sugerencias:
                     </p>
                 </div>
@@ -48,7 +48,7 @@
             <div class="text-blue-100 font-bold text-center">¡Tu opinion es importante para nosotros!</div>
 
             <div class="flex flex-col justify-center items-center w-45 h-45 sm:w-55 sm:h-55 rounded-full  bg-gray-100 p-2 gap-1">
-                <img src="../../assets/tipos&logos/logomedicoopbicolor.png" class="max-w-12 " alt="medicooplogo">
+                <img src="https://i.ibb.co/jv9K07cx/logomedicoopbicolor.png" class="max-w-12 " alt="medicooplogo">
                 <span class="text-center text-xs text-blue-100 p-2 sm:text-sm">puedes dejarnos tus felicitaciones y escribirnos sobre tu
                     experiencia al usar nuestros servicios!
                 </span>

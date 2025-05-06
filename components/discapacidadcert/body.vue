@@ -6,7 +6,7 @@
                 Certificados de Discapacidad</div>
             <div class="flex flex-col sm:flex-row gap-4 justify-around w-full items-center">
                 <div
-                    class=" border-blue-100 border-8 sm:border-10 rounded-tr-2xl rounded-bl-2xl bg-[url('../juntadecalificacion.jpg')] bg-cover min-w-60 h-50 shadow-2xl">
+                    class=" border-blue-100 border-8 sm:border-10 rounded-tr-2xl rounded-bl-2xl bg-[url('https://i.ibb.co/0jPmrVQC/juntadecalificacion.jpg')] bg-cover min-w-60 h-50 shadow-2xl">
                 </div>
                 <div class="flex flex-col justify-center items-start text-xl text-blue-100 px-4 gap-2">
                     <p class="text-justify">

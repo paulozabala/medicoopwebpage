@@ -2,21 +2,21 @@
     <div class="trespilares">
         <div class="boxinside">
             <div class="head">
-                <img src="../../assets/tipos&logos/Triangle.png" alt="">
+                <img src="https://i.ibb.co/WpvVyRSb/Triangle.png" alt="">
             </div>
             <div class="card">Estamos certificados y habilitados para la emisión de certificados de discapacidad por el
                 ministerio de salud.</div>
         </div>
         <div class="boxinside">
             <div class="head">
-                <img src="../../assets/tipos&logos/share.png" alt="">
+                <img src="https://i.ibb.co/gLVPVCrc/share.png" alt="">
             </div>
             <div class="card">Contamos con los mejores equipos interdisciplinarios para la recuperación física y
                 funcional de nuestros usuarios</div>
         </div>
         <div class="boxinside">
             <div class="head">
-                <img src="../../assets/tipos&logos/flash-circle.png" alt="">
+                <img src="https://i.ibb.co/KxgYDGqK/flash-circle.png" alt="">
             </div>
             <div class="card">Brindamos resultados rápidos y efectivos en nuestros procesos de recuperacion y
                 certificación</div>

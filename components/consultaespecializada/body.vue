@@ -16,14 +16,14 @@
                     <span class="font-bold">Subespecialidades:</span> hombro, codo, cadera y rodilla.
                 </div>
                 <div
-                    class=" border-blue-100 border-8 sm:border-10 rounded-tr-3xl rounded-bl-3xl bg-[url('../ortopedia.jpg')] bg-cover min-w-60 h-60 shadow-2xl">
+                    class=" border-blue-100 border-8 sm:border-10 rounded-tr-3xl rounded-bl-3xl bg-[url('https://i.ibb.co/RTXvZGRj/ortopedia.jpg')] bg-cover min-w-60 h-60 shadow-2xl">
                 </div>
             </div>
         </div>
         <div class="flex flex-col justify-center px-8 pt-8 z-2 gap-4">
             <div class="flex flex-col-reverse sm:flex-row gap-4 justify-around w-full items-center">
                 <div
-                    class=" border-blue-200 border-8 sm:border-10 rounded-tr-2xl rounded-bl-2xl bg-[url('../personal/fisiatria.jpeg')] bg-cover min-w-60 h-60 shadow-2xl">
+                    class=" border-blue-200 border-8 sm:border-10 rounded-tr-2xl rounded-bl-2xl bg-[url('https://i.ibb.co/N6YGxXHt/fisiatria.jpg')] bg-cover min-w-60 h-60 shadow-2xl">
                 </div>
                 <div class="flex flex-col justify-center  text-xl text-blue-100 px-4 gap-2">
                     <div class="text-blue-100 font-bold text-end shadow-2xl fill-old-neutral-600 text-2xl">
@@ -51,14 +51,14 @@
                     </p>
                 </div>
                 <div
-                    class=" border-green-100 border-8 sm:border-10 rounded-tr-3xl rounded-bl-3xl bg-[url('../personal/NeylaLizarazoshorter.jpeg')] bg-cover min-w-60 h-60 shadow-2xl">
+                    class=" border-green-100 border-8 sm:border-10 rounded-tr-3xl rounded-bl-3xl bg-[url('https://i.ibb.co/Mq2wMsQ/Neyla-Lizarazoshorter.jpg')] bg-cover min-w-60 h-60 shadow-2xl">
                 </div>
             </div>
         </div>
         <div class="flex flex-col justify-center px-8 pt-8 z-2 gap-4">
             <div class="flex flex-col-reverse sm:flex-row gap-4 justify-around w-full items-center">
                 <div
-                    class=" border-blue-200 border-8 sm:border-10 rounded-tr-2xl rounded-bl-2xl bg-[url('../otrasespecialidades.jpg')] bg-cover min-w-60 h-60 shadow-2xl">
+                    class=" border-blue-200 border-8 sm:border-10 rounded-tr-2xl rounded-bl-2xl bg-[url('https://i.ibb.co/rRcDrRWz/otrasespecialidades.jpg')] bg-cover min-w-60 h-60 shadow-2xl">
                 </div>
                 <div class="flex flex-col justify-center items-start text-xl text-blue-100 px-4 gap-2">
                     <div class="text-blue-100 font-bold text-start shadow-2xl fill-old-neutral-600 text-2xl">

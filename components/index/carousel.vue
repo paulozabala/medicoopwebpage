@@ -9,14 +9,14 @@
 <script setup lang="ts">
 
 const items = [
-    './assets/fachada.jpg',
-    './assets/recepcion.jpg',
-    './assets/recepcionmile.jpg',
-    './assets/sala1.jpg',
-    './assets/sala2.jpg',
-    './assets/sala2b.jpg',
-    './assets/gym.jpg',
-    './assets/fisioterapia.jpg',
+    'https://i.ibb.co/mVCxhCwZ/fachada.jpg',
+    'https://i.ibb.co/7L84k5Q/recepcion.jpg',
+    'https://i.ibb.co/6RDDT3T8/recepcionmile.jpg',
+    'https://i.ibb.co/xkK7wnq/sala1.jpg',
+    'https://i.ibb.co/1GL4y8rD/sala2.jpg',
+    'https://i.ibb.co/zT3r13gY/sala2b.jpg',
+    'https://i.ibb.co/Gvn82VnP/gym.jpg',
+    'https://i.ibb.co/jktqvCYD/fisioterapia.jpg',
 ]
 </script>
 

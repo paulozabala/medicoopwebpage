@@ -84,6 +84,11 @@ const items = ref<DropdownMenuItem[]>([
     icon: 'i-lucide-cog',
     to: '/terapiasdelenguajeyocupacional'
   },
+  {
+    label: 'Teleconsulta',
+    icon: 'healthicons:telemedicine',
+    to: '/teleconsulta'
+  },
 ])
 </script>
 

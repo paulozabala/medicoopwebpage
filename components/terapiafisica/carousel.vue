@@ -9,11 +9,10 @@
 <script setup lang="ts">
 
 const items = [
-    './assets/gym.jpg',
-    './assets/fisioterapia.jpg',
-    './assets/fisica2.jpg',
-    './assets/fisica3.jpg',
- 
+    'https://i.ibb.co/Gvn82VnP/gym.jpg',
+    'https://i.ibb.co/jktqvCYD/fisioterapia.jpg',
+    'https://i.ibb.co/B2Yc4T03/fisica2.jpg',
+    'https://i.ibb.co/8LrgPw7k/fisica3.jpg',
 ]
 </script>
 

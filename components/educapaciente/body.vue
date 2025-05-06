@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-row justify-center bg-blue-100">  
-        <img class="rounded-b-xl z-1 w-3/4 top-0 mb-2" src="../../public/assets/sala1.jpg" alt="">
+        <img class="rounded-b-xl z-1 w-3/4 top-0 mb-2" src="https://i.ibb.co/xkK7wnq/sala1.jpg" alt="">
     </div>
     <div class="flex flex-col md:flex-row justify-around items-center gap-2 text-white relative px-4 my-4">
         <div class="z-2 top-4 w-full p-4 bg-green-100 rounded-lg shadow-md ">

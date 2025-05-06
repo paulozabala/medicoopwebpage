@@ -1,7 +1,7 @@
 <template>
     <div class="bdy">
        <component :is="header" class="w-full"/>
-       <component :is="body" class="w-full"/>
+       <component :is="body" />
        <component :is="footer" class="w-full"/>
    </div>
 </template>

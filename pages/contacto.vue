@@ -2,7 +2,7 @@
     <div class="bdy">
         <component :is="header" class="w-full"/>
         <component :is="modalbtns" class="w-full" id="modalbtns"/>
-        <component :is="body" class="w-full"/>
+        <component :is="body" />
         <component :is="footer" class="w-full"/>
     </div>
 </template>
