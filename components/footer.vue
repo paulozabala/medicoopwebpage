@@ -42,8 +42,8 @@
                             Desarrollo web, balticst3ch@gmail.com
                         </h6>
                         <div id="frame">
-                            <img src="../assets/tipos&logos/FB.png" alt="fblogo">
-                            <img src="../assets/tipos&logos/IG.png" alt="iglogo">
+                            <img src="https://i.ibb.co/KjhHJKWW/FB.png" alt="fblogo">
+                            <img src="https://i.ibb.co/MDywHTTg/IG.png" alt="iglogo">
                         </div>
                     </div>
                 </div>

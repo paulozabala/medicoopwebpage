@@ -1,8 +1,8 @@
 <template fluid>
-    <div class="flex flex-row justify-center align-middle font-bold text-blue-100 w-full ">
-        <div class="flex flex-col justify-start items-center w-full  pl-3 md:max-w-8/15 ">
+    <div class="flex flex-col sm:flex-row justify-center items-center align-middle font-bold text-blue-100 w-full gap-3">
+        <div class="flex flex-col justify-start items-center w-full  pl-3 lg:max-w-8/15 gap-4">
             <div class="text-blue-100 font-bold text-start">CONTÁCTANOS</div>
-            <p class="font-medium text-sm">Si tienes preguntas acerca de nuestros servicios, necesitas apoyo o quieres dar
+            <p class="font-medium text-sm text-center sm:text-left">Si tienes preguntas acerca de nuestros servicios, necesitas apoyo o quieres dar
                 retroalimentación, nuestros colaboradores están listos para ayudarte.
             </p>
             <div class="flex flex-col justify-start align-start w-full ">
@@ -15,8 +15,12 @@
                     <div>Email: medicoopipsltda2@gmail.com</div>
                 </div>
             </div>
+            <div class="flex justify-center w-full h-full pr-3">
+                <iframe class="xl:w-650 xl:h-45" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.367095072147!2d-73.64120752426929!3d4.14800739582581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2de459653605%3A0x2ec31ee3dd6bd560!2sMedicoop%20IPS!5e0!3m2!1ses-419!2sco!4v1746563231857!5m2!1ses-419!2sco" width="450"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
         </div>
-        <img src="https://i.ibb.co/n8Z2X7J3/celpagweb-compressed-1.png" class="max-w-5/15 md:max-w-8/15" alt="celular"></img>
+        <img src="https://i.ibb.co/n8Z2X7J3/celpagweb-compressed-1.png" class="max-w-5/15 lg:max-w-8/15" alt="celular"></img>
     </div>
     <div class="flex max-md:flex-col md:max-2xl:flex-row justify-evenly items-center p-4 w-full">
         <form class="border-1 border-green-300 rounded-xl sm:w-9/12 p-2 md:max-lg:max-w-8/15  lg:max-2xl:max-w-8/15 max-w-8/12" action="/api/send" method="POST">

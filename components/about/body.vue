@@ -15,7 +15,7 @@
                         Visión
                     </UButton>
                 </UModal>
-                <UModal title="Política de Calidad">
+                <UModal title="Política de Calidad" description="MEDICOOP IPS, se compromete a prestar los servicios de salud de segundo nivel, con criterios de eficiencia, eficacia y efectividad, a través de talento humano capacitado y competente, en busca de satisfacer las necesidades y expectativas de nuestros usuarios y familiares, así como los colaboradores orientados con el cumplimiento de nuestra visión, misión y objetivos, cumpliendo con la normatividad vigente legal y apoyándose en la mejora continua de la organización. ">
                     <UButton class="bg-transparent font-bold hover:bg-[#1A4A60]  hover:text-white text-white text-lg">
                         Política
                         de
