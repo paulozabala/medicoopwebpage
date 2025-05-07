@@ -7,7 +7,7 @@
                     <div class="text-blue-100 font-bold text-end shadow-2xl fill-old-neutral-600 text-2xl">
                         Ortopedia</div>
                     <p class="text-justify">
-                        en Medicoop IPS nos enfocamos en el diagnóstico y tratamiento de lesiones y
+                        En Medicoop IPS nos enfocamos en el diagnóstico y tratamiento de lesiones y
                         patologías del sistema musculoesquelético, haciendo referencia a
                         aquellas que se consideran de tipo congénito. Los conocimientos de
                         esta especialidad también están dirigidos a la rehabilitación y prevención

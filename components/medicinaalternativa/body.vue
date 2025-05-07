@@ -23,7 +23,7 @@
                     </ul>
                     <p class="text-justify ">
                         <span class="pl-8">Estas prácticas se</span> basan en la creencia de que el cuerpo tiene la capacidad 
-                        de curarse a sí mismo y, a menudo,se centran entratar al individuo de manera 
+                        de curarse a sí mismo y, a menudo,se centran en tratar al individuo de manera 
                         integral, teniendo en cuenta los aspectos físicos, emocionales y espirituales. 
                     </p>
                 </div>

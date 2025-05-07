@@ -10,11 +10,13 @@
                     class="text-blue-100 font-bold shadow-2xl text-center sm:text-start fill-old-neutral-600 text-2xl mb-">
                     Psicología</div>
                 <div class="flex flex-col sm:flex-row gap-4 justify-around w-full items-center">
-                    <div class="flex flex-col justify-center text-xl text-blue-100 gap-2">
+                    <div class="flex flex-col justify-center text-xl text-blue-100 gap-4">
                         <p class="text-justify">
-                            <span class="pl-8">Através de terapias personalizadas</span> y apoyo profesional, 
+                            <span class="pl-8">A través de terapias personalizadas</span> y apoyo profesional, 
                             te ayudamos a enfrentar desafíos, sanar heridas emocionales y alcanzar una vida plena 
-                            y equilibrada. ¡Tu salud mental merece lo mejor, y estamos aquí para acompañarte en 
+                            y equilibrada. 
+                        </p>
+                        <p class="text-center font-bold">¡Tu salud mental merece lo mejor, y estamos aquí para acompañarte en 
                             cada paso del camino!
                         </p>
                         <ul class="list-disc pl-10">

@@ -1,8 +1,8 @@
 <template>
     <div class="bdy">
         <component :is="header" class="w-full"/>
-        <component :is="body" class="w-full"/>
         <component :is="carousel" />
+        <component :is="body" class="w-full"/>
         <component :is="footer" class="w-full"/>
     </div>
 </template>

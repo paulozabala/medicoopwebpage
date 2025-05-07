@@ -4,7 +4,7 @@
             <div class="head">
                 <img src="https://i.ibb.co/g19qY0s/tfisica.png" alt="">
             </div>
-            <div class="card md:text-md"><span id="title">Rehabilitación física Integral y Ocupacional</span>
+            <div class="card md:text-md"><span id="title">Rehabilitación Física Integral y Ocupacional</span>
             <p class="mt-4 md:text-sm md:px-2 md:pt-2 md:mt-2">¡Recuperación integral, bienestar asegurado!</p></div>
         </div>
         <div class="boxinside">

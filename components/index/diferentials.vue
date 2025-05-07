@@ -18,7 +18,7 @@
             <div class="head">
                 <img src="https://i.ibb.co/KxgYDGqK/flash-circle.png" alt="">
             </div>
-            <div class="card">Brindamos resultados rápidos y efectivos en nuestros procesos de recuperacion y
+            <div class="card">Brindamos resultados rápidos y efectivos en nuestros procesos de recuperación y
                 certificación</div>
         </div>
     </div>

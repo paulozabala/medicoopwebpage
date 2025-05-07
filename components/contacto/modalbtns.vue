@@ -1,7 +1,8 @@
 <template>
     <div class="flex flex-row justify-center min-h-35 gap-4 p-4">
         <UModal>
-            <UButton class="bg-transparent font-bold hover:bg-[#1A4A60]  hover:text-white text-white text-lg sm:max-h-15 md:text-md">
+            <UButton
+                class="bg-transparent font-bold hover:bg-[#1A4A60]  hover:text-white text-white text-lg sm:max-h-15 md:text-md">
                 Horarios de Atención
             </UButton>
             <template #content>
@@ -22,13 +23,10 @@
                             </p>
                         </div>
                     </div>
-                    <div class="text-blue-100 text-lg font-bold p-5 pb-0">
-                        Medios Electrónicos o WhatsApp::
+                    <div class="text-blue-100 text-lg font-bold px-5 pb-0">
+                        Medios Electrónicos o WhatsApp:
                     </div>
-                    <div class="p-7 text-blue-100 ">
-                        <div class="font-bold pt-1">
-                            Presencial:
-                        </div>
+                    <div class="px-5 pb-5 text-blue-100 ">
                         <div>
                             <p class="pt-2 pl-2 text-justify">
                                 Lunes a Viernes: 7 am - 11:30 am y de 2 - 5pm.
@@ -42,7 +40,8 @@
             </template>
         </UModal>
         <UModal>
-            <UButton class="bg-transparent font-bold hover:bg-[#1A4A60]  hover:text-white text-white text-lg sm:max-h-15 md:text-md">
+            <UButton
+                class="bg-transparent font-bold hover:bg-[#1A4A60]  hover:text-white text-white text-lg sm:max-h-15 md:text-md">
                 Tiempos de Respuesta
             </UButton>
             <template #content>
@@ -75,7 +74,8 @@
             </template>
         </UModal>
         <UModal>
-            <UButton class="bg-transparent font-bold hover:bg-[#1A4A60]  hover:text-white text-white text-lg sm:max-h-15 md:text-md">
+            <UButton
+                class="bg-transparent font-bold hover:bg-[#1A4A60]  hover:text-white text-white text-lg sm:max-h-15 md:text-md">
                 Solicitud Historia Clínica
             </UButton>
             <template #content>
@@ -89,7 +89,7 @@
                         </div>
                         <div>
                             <p class="pl-2">
-                                en la pestaña "Acceso Usuarios" en la barra superior puede descargar
+                                En la pestaña "Acceso Usuarios" en la barra superior puede descargar
                                 su historia clínica.
                             </p>
                         </div>
@@ -98,7 +98,7 @@
                         </div>
                         <div>
                             <p class="pl-2">
-                                solicita tu historia clinica diligenciando el formato de manera presencial.
+                                Solicita tu historia clinica diligenciando el formato de manera presencial.
                             </p>
                         </div>
                         <div class="pt-1 pl-2 text-sm font-bold">
@@ -118,7 +118,8 @@
 
 
         <UModal title="PQROS">
-            <UButton class="bg-transparent font-bold hover:bg-[#1A4A60]  hover:text-white text-white text-lg sm:max-h-15 md:text-md">
+            <UButton
+                class="bg-transparent font-bold hover:bg-[#1A4A60]  hover:text-white text-white text-lg sm:max-h-15 md:text-md">
                 PQROS
             </UButton>
             <template #content>

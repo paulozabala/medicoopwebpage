@@ -29,7 +29,7 @@
                 <div class="text-xl md:text-2xl font-bold text-center  bg-blue-100 rounded-b-xl mb-1">Tratamiento oportuno</div>
                 <p class="md:text-lg text-blue-100">
                     Los pacientes pueden ser tratados de manera temprana, lo que puede contribuir
-                    a recibir tratamientos efectivos y prevenir complicaciones futuras. acelerar
+                    a recibir tratamientos efectivos y prevenir complicaciones futuras. Acelerar
                     el proceso de recuperación de salud y obtener mejores resultados costo-beneficio.
                 </p>
             </div>
