@@ -1,5 +1,6 @@
 <template fluid>
     <div class="flex flex-col sm:flex-row justify-center items-center align-middle font-bold text-blue-100 w-full gap-3">
+        <component :is="waspbtn" />
         <div class="flex flex-col justify-start items-center w-full  pl-3 lg:max-w-8/15 gap-4">
             <div class="text-blue-100 font-bold text-start">CONTÁCTANOS</div>
             <p class="font-medium text-sm text-center sm:text-left">Si tienes preguntas acerca de nuestros servicios, necesitas apoyo o quieres dar
@@ -62,6 +63,7 @@
 </template>
 
 <script setup lang="ts">
+import waspbtn from '~/components/waspbtn.vue';
 const apiUrl = process.env.VUE_APP_API_URL+'api/send' || 'http://localhost:3000/api/send'
 </script>
 

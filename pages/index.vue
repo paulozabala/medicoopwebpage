@@ -2,6 +2,7 @@
   <div id="MainPage">
     <component :is="header" />
     <component :is="carousel" />
+    <component :is="waspbtn" />
     <component :is="diferentials" />
     <component :is="serviceCards" />
     <component :is="clients" />
@@ -16,6 +17,7 @@ import carousel from '~/components/index/carousel.vue';
 import diferentials from '~/components/index/diferentials.vue';
 import serviceCards from '~/components/index/serviceCards.vue';
 import clients from '~/components/index/clients.vue'
+import waspbtn from '~/components/waspbtn.vue';
 </script>
 
 <style>

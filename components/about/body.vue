@@ -2,6 +2,7 @@
     <div class="modalmenu flex flex-col">
         <div class="gradient"></div>
         <div class="flex flex-col z-2 gap-3 md:h-90 ">
+            <component :is="waspbtn" />
             <div class="flex flex-row justify-center mt-10">
                 <UModal title="Misión"
                     description="Somos una entidad especializada en prestar servicios de salud, con un trato humano, con atención oportuna, con personal altamente calificado equipos especializados, de acuerdo a la normatividad vigente y a las necesidades de la población llanera.">
@@ -48,6 +49,9 @@
     </div>
 </template>
 
+<script setup lang="ts">
+import waspbtn from '~/components/waspbtn.vue';
+</script>
 <style scoped>
 .modalmenu {
     position: relative;
