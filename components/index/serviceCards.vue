@@ -1,17 +1,17 @@
 <template>
-    <div class="serviceCards">
-        <div class="boxinside">
-            <div class="head">
-                <img src="https://i.ibb.co/g19qY0s/tfisica.png" alt="">
+    <div class="serviceCards ">
+        <div class="card">
+            <img class="img" src="https://i.ibb.co/g19qY0s/tfisica.png" />
+            <div class="textBox">
+                <p class="text head text-center">Rehabilitación Física Integral y Ocupacional</p>
+                <span class="text-center text-xs">¡Recuperación integral, bienestar asegurado!</span>
+                <p class="text ending">Contáctanos!</p>
             </div>
-            <div class="card md:text-md"><span id="title">Rehabilitación Física Integral y Ocupacional</span>
-            <p class="mt-4 md:text-sm md:px-2 md:pt-2 md:mt-2">¡Recuperación integral, bienestar asegurado!</p></div>
         </div>
-        <div class="boxinside">
-            <div class="head">
-                <img src="https://i.ibb.co/DgR206km/consulta-especializada.jpg" alt="">
-            </div>
-            <div class="card md:text-md"><span id="title">Consulta Médica Especializada</span>
+        <div class="card">
+            <img class="img" src="https://i.ibb.co/DgR206km/consulta-especializada.jpg" />
+            <div class="textBox">
+                <p class="text head text-center">Consulta Médica Especializada</p>
                 <ul class="px-10 pt-4 text-start md:text-sm md:px-2 md:pt-2">
                     <li>Ortopedia</li>
                     <li>Fisiatría</li>
@@ -19,30 +19,31 @@
                     <li>Neurocirugía</li>
                     <li>Med. Laboral</li>
                 </ul>
+                <p class="text ending">Contáctanos!</p>
             </div>
         </div>
-        <div class="boxinside">
-            <div class="head">
-                <img src="https://i.ibb.co/FkmDq2Kb/Otero-Yeny.jpg" alt="">
-            </div>
-            <div class="card md:text-md"><span id="title">Exámen Médico Ocupacional</span>
+        <div class="card">
+            <img class="img" src="https://i.ibb.co/FkmDq2Kb/Otero-Yeny.jpg" />
+            <div class="textBox">
+                <p class="text head text-center">Exámen Médico Ocupacional</p>
                 <ul class="px-10 pt-4 text-start md:text-sm md:px-2 md:pt-2">
                     <li>Ingreso</li>
                     <li>Egreso</li>
                     <li>Periódicos</li>
                 </ul>
+                <p class="text ending">Contáctanos!</p>
             </div>
         </div>
-        <div class="boxinside">
-            <div class="head">
-                <img src="https://i.ibb.co/rGwpk895/trabajador-compressed.jpg" alt="">
-            </div>
-            <div class="card md:text-md"><span id="title">Otros Servicios Ocupacionales:</span>
-                <ul class="px-10 pt-4 text-start md:text-sm md:px-2 md:pt-2">
-                    <li>Análisis de puesto de trabajo</li>
+        <div class="card">
+            <img class="img" src="https://i.ibb.co/rGwpk895/trabajador-compressed.jpg" />
+            <div class="textBox">
+                <p class="text head text-center">Otros Servicios Ocupacionales:</p>
+                <ul class="px-10 pt-4 text-center md:text-sm md:px-2 md:pt-2 decoration-cicle">
+                    <li>Análisis puesto de trabajo</li>
                     <li>Eval. Ergonómica</li>
-                    <li>Juntas de Rehabilitación, etc.</li>
+                    <li>Juntas de Rehabilitación, otros...</li>
                 </ul>
+                <p class="text ending">Contáctanos!</p>
             </div>
         </div>
     </div>
@@ -57,14 +58,98 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     width: 100%;
     margin-top: 10px;
     padding: 0px 10px !important;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 20px;
+    width: 195px;
+    height: 300px;
+    background: linear-gradient(to bottom, #2DCD7F 2%, #1A4A60 68%) !important;
+    /* background: #313131; #3699C6*/
+    transition: 0.2s ease-in-out;
+
+}
+
+.img {
+    position: absolute;
+    border-radius: 7px;
+    object-fit: cover;
+    width: 180px;
+    height: 30%;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.textBox {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.textBox>.text {
+    font-weight: bold;
+}
+
+.textBox>.head {
+    font-size: 17px;
+}
+
+.textBox>.ending {
+    font-size: 17px !important;
+}
+
+.textBox>ul {
+    font-size: 16px;
+}
+
+.card:hover>.textBox {
+    opacity: 1;
+}
+
+.card:hover>.img {
+    height: 65%;
+    filter: blur(170px);
+    animation: anim 3s infinite;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.card:hover {
+    transform: scale(1.04) rotate(-1deg);
+    background-color: black;
+    color: white;
+}
+
+
+/*
 .boxinside {
     display: flex;
     flex-direction: column;
@@ -142,5 +227,5 @@ li {
     .card {
         font-size: 16px;
     }
-}
+} */
 </style>

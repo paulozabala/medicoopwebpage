@@ -1,39 +1,83 @@
+
 <template>
-    <div class="flex flex-col justify-center min-w-4/5">
-        <div class="flex justify-center min-w-5/5 pt-10 px-30">
-            <span class="text-4xl text-blue-100 font-semibold text-center">
-                Algunos de nuestros convenios:
-            </span>
-        </div>
-        <div class="flex justify-center min-w-5/5 px-30 py-5">
-            <p class="text-2xl text-black font-light text-justify">
-                Contamos con convenios que nos permiten acompañar a usuarios de nuestros aliados en el proceso de
-                atención,
-                diagnóstico, tratamiento y acompañamiento en la recuperación de su salud.
-            </p>
-        </div>
-        <div class="clients">
-            <img src="https://i.ibb.co/YTpYN807/fomag.jpg" alt="">
-            <img src="https://i.ibb.co/twnWdSpT/positiva.jpg" alt="">
-            <img src="https://i.ibb.co/jPFQ08fm/axalogo.jpg" alt="">
-
-            <img src="https://i.ibb.co/1VrgZz2/suralogo.png" alt="">
-            <img src="https://i.ibb.co/0VXcSrGc/cajacopi.jpg" alt="">
-            <img src="https://i.ibb.co/tPqPLbCs/colmena-seg.jpg" alt="">
-
-            <img src="https://i.ibb.co/VpxRjHLg/Bolivar.jpg" alt="">
-            <img src="https://i.ibb.co/Swd0cp4g/logotempoaseo.png" alt="">
-            <img src="https://i.ibb.co/nqC8Hb88/logo-colsanitas.jpg" alt="">
+    <div class="flex justify-center min-w-5/5 pt-10 px-30">
+        <span class="text-3xl text-blue-100 font-semibold text-center">
+            Algunos de nuestros convenios:
+        </span>
+    </div>
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <div class="carousel-slide" v-for="(img, index) in images" :key="index">
+                <img :src="img" alt="" />
+            </div>
+            <!-- Repetimos las imágenes para efecto de scroll infinito -->
+            <div class="carousel-slide" v-for="(img, index) in images" :key="'dup-' + index">
+                <img :src="img" alt="" />
+            </div>
         </div>
     </div>
 </template>
 
 <script setup>
-
+const images = [
+    "https://i.ibb.co/YTpYN807/fomag.jpg",
+    "https://i.ibb.co/twnWdSpT/positiva.jpg",
+    "https://i.ibb.co/jPFQ08fm/axalogo.jpg",
+    "https://i.ibb.co/1VrgZz2/suralogo.png",
+    "https://i.ibb.co/0VXcSrGc/cajacopi.jpg",
+    "https://i.ibb.co/tPqPLbCs/colmena-seg.jpg",
+    "https://i.ibb.co/VpxRjHLg/Bolivar.jpg",
+    "https://i.ibb.co/Swd0cp4g/logotempoaseo.png",
+    "https://i.ibb.co/nqC8Hb88/logo-colsanitas.jpg"
+];
 </script>
 
 <style scoped>
-.clients {
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.carousel-track {
+    display: flex;
+    width: fit-content;
+    animation: scroll-left 40s linear infinite;
+}
+
+.carousel-slide {
+    flex: 0 0 auto;
+    padding: 0 20px;
+}
+
+.carousel-slide img {
+    width: 180px;
+    height: 140px;
+    object-fit: contain;
+    border-radius: 15px;
+    opacity: 0.7;
+    mix-blend-mode: color-burn;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-slide img {
+        width: 120px;
+        height: 100px;
+    }
+}
+
+/* .clients {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,5 +107,5 @@ img {
         flex-direction: row;
         justify-content: space-around;
     }
-}
+} */
 </style>
